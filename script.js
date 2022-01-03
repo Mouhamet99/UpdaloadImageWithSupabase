@@ -1,9 +1,9 @@
 import { createClient } from "./node_modules/@supabase/supabase-js";
 // Remplace les constantes par les tienne
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoic2VydmljZV9yb2xlIiwiaWF0IjoxNjM5NTg3NzY5LCJleHAiOjE5NTUxNjM3Njl9.UN1MoxDyGImGKfDdi5BJMTF85vEKCY2RzhgG12aF9Uo";
-const SUPABASE_URL = "https://ixiwdzxiyrsjgjnrkqvi.supabase.co/rest/v1/apprenants";
+const SUPABASE_KEY = "VOTRE CLE D'ACCES";
+const SUPABASE_URL = "VOTRE URL D'ACCES/rest/v1/NOM DE VOTRE TABLE";
 const nomRepertoireSupabase = "photo-profil"
-const supabase = createClient('https://ixiwdzxiyrsjgjnrkqvi.supabase.co', SUPABASE_KEY)
+const supabase = createClient("VOTRE URL D'ACCESÉ", SUPABASE_KEY)
 const inputFile = document.getElementById('image')
 const inputNom = document.getElementById('nom')
 const inputPrenom = document.getElementById('prenom')
